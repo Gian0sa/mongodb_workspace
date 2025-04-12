@@ -1,0 +1,14 @@
+//vamos a crear nuestra base de datos 
+use("sales_clothes")
+//crear una coleccion y su respectivo documento
+/*db.prenda.insertOne(
+    {
+        nombre:"camisa",
+        marca :"Van Husen",
+        precio:75.50,
+        color:["azul","Verde","Rojo"],
+        stock: 50
+    }
+)*/
+//listar documento
+db.prenda.find()
