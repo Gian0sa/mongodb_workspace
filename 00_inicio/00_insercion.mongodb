@@ -12,3 +12,6 @@ use("sales_clothes")
 )*/
 //listar documento
 db.prenda.find()
+
+//contar docuemntos
+db.prendas.find().count()
